@@ -1,0 +1,89 @@
+body {
+    margin: 95px auto;
+    max-width: 1300px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 85px;
+  }
+  h1.name:hover {
+    font-family: "Playfair Display", serif;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    opacity: 0.7;
+  }
+  
+  p {
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  p.homepage,
+  h2.homepage {
+    background: none;
+    text-align: left;
+    padding: 0;
+  }
+  .navigation-links {
+    display: flex;
+    margin: 40px 0 48px;
+    justify-content: center;
+  }
+  
+  .navigation-links a {
+    margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .contact-link {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+  }
+  .launch-app {
+    background: var(--primary-color);
+    box-shadow: var(--box-shadow);
+    color: white;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  .about-link {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+  }
+  .about-paragraphs {
+    margin: 10px 0;
+  }
+  .email-link {
+    display: flex;
+    justify-content: center;
+    color: var(--primary-color);
+    font-size: 28px;
+    text-decoration: none;
+  }
+  .email-link:hover {
+    text-decoration: underline;
+  }
+  .row,
+  .img {
+    max-width: 100%;
+  }  
