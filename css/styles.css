@@ -29,17 +29,6 @@ body {
     font-size: 24px;
     opacity: 0.7;
   }
-  @media (max-width: 450px) {
-    h1 {
-      font-size: 50px;
-    }
-    h2 {
-    font-size: 30px;
-    }
-    h3 {
-        font-size: 18px;
-    }
-  }
   p {
     padding: 20px;
     border-radius: 4px;
@@ -58,7 +47,6 @@ body {
     margin: 40px 0 48px;
     justify-content: center;
   }
-  
   .navigation-links a {
     margin: 20px;
     border-radius: 4px;
@@ -66,7 +54,6 @@ body {
     text-decoration: none;
     text-transform: capitalize;
   }
-  
   .contact-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
@@ -101,4 +88,39 @@ body {
   .row,
   .img {
     max-width: 100%;
-  }  
+  }
+  .row {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    padding: 0 10px;
+  }
+  @media (max-width: 450px) {
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+    font-size: 30px;
+    }
+    h3 {
+    font-size: 18px;
+    }
+    p.homepage, h2.homepage {
+      text-align: center;
+    }
+    a.launch-app {
+      display: flex;
+      justify-content: center;
+      margin: 0 10px;
+    }
+    div.navigation-links {
+      margin: 0;
+    }
+    div.row.weather-img {
+      margin-bottom: -80px;
+    }
+    div.yogurt-img {
+      margin-top: -50px;
+    }
+  }
