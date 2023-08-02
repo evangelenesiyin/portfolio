@@ -123,4 +123,10 @@ body {
     div.yogurt-img {
       margin-top: -50px;
     }
+    .email-link {
+      font-size: 20px;
+    }
+    .aboutme-img {
+      margin: 20px 10px;
+    }
   }
